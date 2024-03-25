@@ -69,38 +69,33 @@
 	}
 }
 
-@media only screen and (min-width: 1200px) and (orientation: landscape) {
-	// header
-	.header {
-		.navbar {
-			.nav {
-				&__link {
-					font-size: 2rem;
-				}
-			}
-		}
-	}
+// @media only screen and (min-width: 1200px) and (orientation: landscape) {
+// 	// header
+// 	.header {
+// 		.navbar {
+// 			.nav {
+// 				&__link {
+// 					font-size: 2rem;
+// 				}
+// 			}
+// 		}
+// 	}
 
-	// hero-image
-	.hero-image {
-		height: 80vh;
-	}
+// 	// main
+// 	.main {
+// 		// aboutus
+// 		.aboutus {
+// 			&__content {
+// 				.carousel {
+// 					display: none;
+// 				}
 
-	// main
-	.main {
-		// aboutus
-		.aboutus {
-			&__content {
-				.carousel {
-					display: none;
-				}
-
-				&--img {
-					display: flex;
-					height: 70vh;
-					object-fit: cover;
-				}
-			}
-		}
-	}
-}
+// 				&--img {
+// 					display: flex;
+// 					height: 70vh;
+// 					object-fit: cover;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
