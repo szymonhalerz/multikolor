@@ -141,4 +141,22 @@
 	.hero-image {
 		height: 90vh;
 	}
+
+	// main
+	.main {
+		// aboutus
+		.aboutus {
+			&__content {
+				.carousel {
+					display: none;
+				}
+
+				&--img {
+					display: flex;
+					height: 70vh;
+					object-fit: cover;
+				}
+			}
+		}
+	}
 }
