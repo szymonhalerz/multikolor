@@ -40,4 +40,88 @@
 			}
 		}
 	}
+
+	// main
+	.main {
+		padding: 1.4em 1em 2em 1em;
+
+		// aboutus
+		.aboutus {
+			.head-title {
+				font-size: 3.3rem;
+			}
+
+			.subtitle {
+				font-size: 2.2rem;
+			}
+
+			&__content {
+				padding: 1.5em 2em;
+				
+				.para-text {
+					line-height: 2.8rem;
+				}
+
+				&--img {
+					display: none;
+				}
+
+				.carousel {
+					display: flex;
+					margin: 2em 0em 2.4em 0em;
+													
+					&-inner {
+						
+						.carousel-item {
+							.img {
+								background-size: contain;
+								object-fit: cover;
+								height: 60vh;
+							}
+
+							.carousel-caption {
+								position: absolute;
+								bottom: 0;
+								left: 0;
+								width: 100%;
+								height: 21%;
+								width: 100%;
+								z-index: 1;
+
+								h5 {
+									font-weight: bold;
+									color: c.$very-light-blue;
+									font-size: 1.8rem;
+								}
+
+								p {
+									font-weight: bold;
+									font-size: 2rem;
+								}
+							}
+
+							.text-shadow {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 100%;
+								height: 100%;
+								background-color: rgba(1, 14, 28, 0.85);
+								z-index: -5;
+							}
+						}
+					}
+
+					.carousel-control-next,
+					.carousel-control-prev {
+						.carousel-control-next-icon,
+						.carousel-control-prev-icon {
+							width: 3em;
+							height: 3em;
+						}
+					}
+				}
+			}
+		}
+	}
 }

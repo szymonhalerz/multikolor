@@ -50,33 +50,71 @@
 
 	// hero-image
 	.hero-image {
-		.wrapper {
-			.hero-text {
-				// padding-bottom: 4em;
-
-				&__heading {
-					font-size: 4.7rem;
-				}
-
-				&__paragraph {
-					font-size: 2.3rem;
-				}
-
-				.btn {
-					font-size: 1.9rem;
-				}
-			}
-		}
-	}
-
-	// hero-image
-	.hero-image {
 		background-position-y: 50%;
 
 		.wrapper {
 			.hero-text {
 				&__heading {
 					font-size: 4.5rem;
+				}
+			}
+		}
+	}
+
+	// main
+	.main {
+		padding: 2em 1em 4em 1em;
+
+		// aboutus
+		.aboutus {
+			.head-title {
+				font-size: 3.5rem;
+			}
+
+			.subtitle {
+				font-size: 2.4rem;
+			}
+
+			&__content {
+				padding: 2em 2.5em;
+
+				.para-text {
+					font-size: 1.7rem;
+				}
+
+				.btn-box {
+					.btn {
+						font-size: 2rem;
+					}
+				}
+
+				.carousel {
+					margin: 2.5em 0em 2.5em 0em;
+
+					&-inner {
+						.carousel-item {
+							.carousel-caption {
+								height: 22%;
+
+								h5 {
+									font-size: 2rem;
+								}
+
+								p {
+									font-size: 2.3rem;
+								}
+							}
+						}
+					}
+
+					.carousel-control-next,
+					.carousel-control-prev {
+						.carousel-control-next-icon,
+						.carousel-control-prev-icon {
+							width: 3.2em;
+							height: 3.2em;
+						}
+					}
 				}
 			}
 		}

@@ -24,4 +24,47 @@
 			}
 		}
 	}
+
+    // main
+	.main {
+		padding: 2em 1em 4em 1em;
+
+		// aboutus
+		.aboutus {
+            
+            .head-title {
+                font-size: 3.7rem;
+			}
+            
+			.subtitle {
+                font-size: 2.7rem;
+			}
+            
+			&__content {
+                margin-top: 3.5em;
+				
+				.para-text {
+					font-size: 1.8rem;
+				}
+
+				.carousel {													
+					&-inner {
+						.carousel-item {
+							.carousel-caption {
+								height: 23%;
+
+								h5 {
+									font-size: 2.2rem;
+								}
+
+								p {
+									font-size: 2.5rem;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

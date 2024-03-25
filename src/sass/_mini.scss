@@ -119,6 +119,7 @@
 				text-transform: uppercase;
 				letter-spacing: 0.1rem;
 				font-size: 3.7rem;
+				font-weight: bold;
 			}
 
 			&__paragraph {
@@ -158,5 +159,70 @@
 		height: 100%;
 		background-color: rgba(1, 14, 28, 0.85);
 		z-index: -5;
+	}
+}
+
+// main
+.main {
+	padding: 0.4em 0.7em 2em 0.7em;
+
+	// aboutus
+	.aboutus {
+		&__content {
+			margin-top: 2em;
+			display: flex;
+			flex-direction: column;
+			padding: 0.7em 1em;
+			border-radius: 0.5em;
+			background-color: c.$very-light-gray2;
+
+			.para-text:first-of-type {
+				margin: 0.5em 0em;
+			}
+
+			.para-text {
+				margin: 1em 0em;
+				line-height: 2.7rem;
+			}
+
+			.carousel {
+				display: none;
+			}
+
+			&--img {
+				margin: 1em 0em;
+				border-radius: 0.5em;
+			}
+
+			.para-text {
+				font-size: 1.6rem;
+			}
+
+			.btn-box {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 1.8em 0em;
+				width: 100%;
+
+				.btn {
+					padding: 0.7em 1.4em;
+					border-radius: 0.4em;
+					background-color: c.$very-light-blue;
+					border: 2px solid c.$very-light-blue;
+					color: c.$white;
+					text-decoration: none;
+					font-size: 1.7rem;
+					font-weight: bold;
+					transition: border 0.3s, background-color 0.3s, color 0.3s;
+
+					&:hover {
+						border: 2px solid c.$very-light-blue;
+						background-color: c.$very-light-gray2;
+						color: c.$very-light-blue;
+					}
+				}
+			}
+		}
 	}
 }
