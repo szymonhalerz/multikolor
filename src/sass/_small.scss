@@ -1,5 +1,33 @@
 @use './colors' as c;
 
+@media (min-width: 385px) {
+	// hero-image
+	.hero-image {
+		height: 40vh;
+
+		.wrapper {
+			.hero-text {
+				padding-bottom: 2.7em;
+
+				&__heading {
+					letter-spacing: 0.2rem;
+					font-size: 4.2rem;
+				}
+
+				&__paragraph {
+					padding: 0em 1em;
+					font-size: 2rem;
+				}
+
+				.btn {
+					padding: 0.7em 1.3em;
+					font-size: 1.7rem;
+				}
+			}
+		}
+	}
+}
+
 @media (min-width: 568px) {
 	// header
 	.header {
@@ -16,6 +44,30 @@
 
 			.hamburger {
 				top: 3em;
+			}
+		}
+	}
+
+	// hero-image
+	.hero-image {
+		background-position-y: 70%;
+
+		.wrapper {
+			.hero-text {
+				padding-bottom: 4.5em;
+
+				&__heading {
+					font-size: 4rem;
+					margin-bottom: 0.2em;
+				}
+
+				&__paragraph {
+					font-size: 2rem;
+				}
+
+				.btn {
+					font-size: 1.7rem;
+				}
 			}
 		}
 	}
