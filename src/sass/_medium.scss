@@ -57,7 +57,7 @@
 
 			&__content {
 				padding: 1.5em 2em;
-				
+
 				.para-text {
 					line-height: 2.8rem;
 				}
@@ -69,9 +69,8 @@
 				.carousel {
 					display: flex;
 					margin: 2em 0em 2.4em 0em;
-													
+
 					&-inner {
-						
 						.carousel-item {
 							.img {
 								background-size: contain;
@@ -126,8 +125,18 @@
 	}
 }
 
-
 @media only screen and (min-width: 768px) and (orientation: landscape) {
+	// header
+	.header {
+		.navbar {
+			.nav {
+				&__link {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+
 	// hero-image
 	.hero-image {
 		height: 90vh;
