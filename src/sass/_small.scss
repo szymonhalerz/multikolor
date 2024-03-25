@@ -102,3 +102,10 @@
 		}
 	}
 }
+
+@media only screen and (min-width: 568px) and (orientation: landscape) {
+	// hero-image
+	.hero-image {
+		height: 90vh;
+	}
+}
