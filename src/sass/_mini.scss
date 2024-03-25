@@ -59,15 +59,12 @@
 				right: 0;
 				bottom: 0;
 				left: 0;
+				height: 100vh;
+				overflow-y: hidden;
 				background-color: c.$very-dark-navy;
 				transform: translateX(-102%);
 				transition: transform 0.3s;
 				z-index: 10;
-				overflow-y: hidden !important;
-
-				::-webkit-scrollbar {
-					display: none; /* dla przeglądarek WebKit (Chrome, Safari, itp.) */
-				}
 
 				&--active {
 					transform: translateX(0);
