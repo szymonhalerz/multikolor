@@ -1,34 +1,7 @@
-@use './colors';
+@use './colors' as c;
+@use './reset';
+@use './mini';
 @use './small';
 @use './medium';
 @use './large';
 @use './extra-large';
-
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-html,
-body {
-	height: 100%;
-}
-
-html {
-	font-size: 62.5%;
-	scroll-behavior: smooth;
-}
-
-body {
-	font-family: 'Raleway', sans-serif;
-    font-size: 1.6rem;
-}
-
-.wrapper {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
-}

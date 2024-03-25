@@ -1,3 +1,50 @@
-@use './colors';
+@use './colors' as c;
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+	// header
+	.header {
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0em 1em;
+
+			&__brand-logo {
+				&--link {
+					.logo-img {
+						width: 10.5em;
+					}
+				}
+			}
+
+			.hamburger {
+				display: none;
+			}
+
+			.nav {
+				&-desktop {
+					display: flex;
+				}
+
+				&-mobile {
+					display: none;
+				}
+
+				&__link {
+					margin: 0em;
+					padding: 2.3em 1em;
+					text-transform: uppercase;
+					font-size: 1.5rem;
+					font-weight: 500;
+					transition: font-weight 0.3s, transform 0.3s, background-color 0.3s;
+
+					&:hover {
+						font-weight: 500;
+						transform: scale(0.95);
+						background-color: c.$light-blue;
+					}
+				}
+			}
+		}
+	}
+}
